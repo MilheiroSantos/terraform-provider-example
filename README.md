@@ -23,7 +23,7 @@ $ mkdir -p ~/.terraform.d/plugins/myorg.com/custom/myfile/0.1.0/linux_amd64/ && 
   mv terraform-provider-myfile ~/.terraform.d/plugins/myorg.com/custom/myfile/0.1.0/linux_amd64/
 ```
 
-On the `example` folder, apply the terraform configuration:
+In the `example` folder, apply the terraform configuration:
 ```shell
 $ terraform init && terraform apply -auto-approve
 ```
