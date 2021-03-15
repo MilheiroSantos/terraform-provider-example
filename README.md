@@ -14,8 +14,10 @@ The format should be:
 - For Linux, `OS` is `linux` and `TF_DIR` can be `$HOME/.terraform.d/plugins`
 - For macOS X, `OS` is `darwin` and `TF_DIR` can be `$HOME/.terraform.d/plugins`
 - For Windows, `OS` is `windows` and `TF_DIR` can be `%APPDATA%/terraform.d/plugins`
+
 `ARCH` is the CPU architecture. Most common values are `amd64` or `arm64`.
-  
+ 
+For a Linux amd64 build: 
 ```shell
 $ mkdir -p ~/.terraform.d/plugins/myorg.com/custom/myfile/0.1.0/linux_amd64/ && \
   mv terraform-provider-myfile ~/.terraform.d/plugins/myorg.com/custom/myfile/0.1.0/linux_amd64/
